@@ -1,0 +1,78 @@
+
+/****************/
+/*CONTACT */
+
+
+.main-container{ 
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 15vh 0;
+  box-sizing: border-box;
+}
+
+.mail {
+  font-size: 3.2rem;
+  font-weight: 100;
+  color: #fff;
+  width: 80%;
+  -webkit-text-stroke: 1px #e4440e;
+  color: transparent;
+}
+
+.span {
+  font-size: 4rem;
+  font-weight: 150;
+  color: #fff;
+  -webkit-text-stroke: 1px #e4440e;
+  width: 90%;
+}
+
+img {
+  width: 4rem;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  margin: 0.1rem 0.1rem;
+}
+
+
+.big-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.big-container svg{
+  width: clamp(4rem, 10vw, 8rem);
+}
+
+
+.let {
+  font-size: 3.2rem;
+  font-weight: 100;
+
+  color: #fff;
+  /* margin-left: 60rem;
+  margin-top: 10rem;
+  margin-bottom: 0; */
+
+  -webkit-text-stroke: 1px #e4440e;
+  color: transparent;
+}
+
+@media (max-width: 768px){
+  .mail{
+    font-size: 2.2rem;
+  }
+
+  .span{
+    font-size: 2.5rem;
+  }
+
+}

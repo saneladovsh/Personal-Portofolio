@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap"
+      rel="stylesheet"
+      />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap"
+      rel="stylesheet"
+      />
+
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="./shared/shared.css" />
+    <link rel="stylesheet" href="./shared/navigation.css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/TextPlugin.min.js"></script>
+    <script defer src="./contact.js"></script>
+
+    <title>Sane's Page</title>
+  </head>
+  <body>
+    <header class="primary-header flex">
+      <nav>
+        <ul id="primary-navigation" class="primary-navigation flex">
+          <li class="active">
+            <a href="index.html"> HOME </a>
+          </li>
+
+          <li class="active">
+            <a href="aboutme.html"> ABOUT ME </a>
+          </li>
+
+          <li class="active">
+            <a href="animation.html"> MY WORK </a>
+          </li>
+
+          <li class="active">
+            <a href="contact.html"> CONTACT ME </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-container">
+
+
+      <p class="mail">
+        If you want to contact me, <br />you can write a mail to <br />
+      </p>
+
+      <!-- paragraph containing the mail -->
+
+      <div class="container-mail">
+        <span id="gsap-text" class="span"></span>
+      </div>
+
+      <p class="let">Let's get in touch!</p>
+
+      <!-- BIG CONTAINER CONTAINING THE SVGS -->
+
+      <div class="big-container">
+
+
+        <!-- DRIBBLE LOGO -->
+
+        <svg
+          class="dribble-logo"
+          fill="#ffffff"
+          viewBox="0 0 32.00 32.00"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="#ffffff">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <title>dribble</title>
+            <path
+              d="M25.916 7.921c-1.881 2.234-4.289 3.965-7.035 5.009l-0.118
+              0.039c0.3 0.612 0.587 1.231 0.85 1.857 0.1 0.225 0.187 0.45 0.275
+              0.662 0.927-0.102 2.003-0.16 3.092-0.16 2.063 0 4.077 0.208 6.023
+              0.605l-0.193-0.033c-0.020-3.040-1.107-5.821-2.904-7.994l0.017
+              0.021zM13.001 3.569c1.595 2.15 3.176 4.6 4.598 7.151l0.178
+              0.347c2.712-0.908 4.989-2.511
+              6.694-4.6l0.021-0.026c-2.247-2.006-5.228-3.232-8.494-3.232-1.063
+              0-2.096 0.13-3.084 0.375l0.088-0.018zM3.46 13.395c4.219-0.022
+              8.295-0.59 12.176-1.636l-0.333
+              0.076c-1.652-2.899-3.222-5.318-4.912-7.644l0.163 0.236c-3.596
+              1.721-6.227 4.966-7.077 8.875l-0.015 0.085zM6.484
+              24.585c2.42-3.882 6.010-6.839 10.271-8.408l0.141-0.045c0.169-0.056
+              0.337-0.105 0.506-0.15-0.325-0.731-0.675-1.458-1.040-2.174-3.888
+              1.154-8.355 1.819-12.977 1.819-0.066 0-0.131-0-0.196-0l0.010
+              0-0.005 0.39c0 0.003 0 0.006 0 0.009 0 3.297 1.25 6.302 3.301
+              8.568l-0.010-0.011zM21.005
+              27.809c-0.682-3.699-1.63-6.957-2.863-10.070l0.126 0.361-0.082
+              0.025c-4.314 1.346-7.826 4.192-10.002 7.915l-0.045 0.083c2.145
+              1.688 4.885 2.707 7.863 2.707 1.805 0 3.522-0.374
+              5.078-1.049l-0.083 0.032zM28.646
+              18.052c-1.571-0.474-3.376-0.747-5.245-0.747-0.964 0-1.911
+              0.073-2.836 0.213l0.104-0.013c0.98 2.564 1.842 5.629 2.436
+              8.789l0.054 0.344c2.874-1.96 4.893-4.993
+              5.482-8.51l0.010-0.075zM16 30.996c0 0 0 0-0 0-8.282
+              0-14.996-6.714-14.996-14.996s6.714-14.996 14.996-14.996c8.282 0
+              14.996 6.714 14.996 14.996 0 0 0 0 0 0v0c-0.011 8.277-6.718
+              14.984-14.995 14.996h-0.001z"></path>
+          </g>
+        </svg>
+
+        <!-- LINKEIN LOGO -->
+
+
+        <svg
+          class="linkedin-logo"
+          viewBox="-2.2 -2.2 24.40 24.40"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          fill="#ffffff">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <title>linkedin [#ffffff161]</title>
+            <desc>Created with Sketch.</desc>
+            <defs></defs>
+            <g
+              id="Page-1"
+              stroke="none"
+              stroke-width="1"
+              fill="none"
+              fill-rule="evenodd">
+              <g
+                id="Dribbble-Light-Preview"
+                transform="translate(-180.000000, -7479.000000)"
+                fill="#ffffff">
+                <g id="icons" transform="translate(56.000000, 160.000000)">
+                  <path
+                    d="M144,7339 L140,7339 L140,7332.001 C140,7330.081
+                    139.153,7329.01 137.634,7329.01 C135.981,7329.01
+                    135,7330.126 135,7332.001 L135,7339 L131,7339 L131,7326
+                    L135,7326 L135,7327.462 C135,7327.462 136.255,7325.26
+                    139.083,7325.26 C141.912,7325.26 144,7326.986 144,7330.558
+                    L144,7339 L144,7339 Z M126.442,7323.921 C125.093,7323.921
+                    124,7322.819 124,7321.46 C124,7320.102 125.093,7319
+                    126.442,7319 C127.79,7319 128.883,7320.102 128.883,7321.46
+                    C128.884,7322.819 127.79,7323.921 126.442,7323.921
+                    L126.442,7323.921 Z M124,7339 L129,7339 L129,7326 L124,7326
+                    L124,7339 Z"
+                    id="linkedin-[#ffffff161]"></path>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+
+        <!-- GITHUB LOGO -->
+
+        <svg class="git-logo" viewBox="0 0 24 24" fill="none"
+          xmlns="http://www.w3.org/2000/svg"><g
+            id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+            id="SVGRepo_tracerCarrier" stroke-linecap="round"
+            stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path
+              d="M9.29183 21V18.4407L9.3255 16.6219C9.36595 16.0561 9.58639
+              15.5228 9.94907 15.11C9.95438 15.1039 9.95972 15.0979 9.9651
+              15.0919C9.9791 15.0763 9.96988 15.0511 9.94907
+              15.0485V15.0485C7.52554 14.746 5.0005 13.7227 5.0005
+              9.26749C4.9847 8.17021 5.3427 7.10648 6.00437 6.27215C6.02752
+              6.24297 6.05103 6.21406 6.07492 6.18545V6.18545C6.10601 6.1482
+              6.11618 6.09772 6.10194 6.05134C6.10107 6.04853 6.10021 6.04571
+              6.09935 6.04289C6.0832 5.9899 6.06804 5.93666 6.05388
+              5.88321C5.81065 4.96474 5.86295 3.98363 6.20527 3.09818C6.20779
+              3.09164 6.21034 3.08511 6.2129 3.07858C6.22568 3.04599 6.25251
+              3.02108 6.28698 3.01493V3.01493C6.50189 2.97661 7.37036 2.92534
+              9.03298 4.07346C9.08473 4.10919 9.13724 4.14609 9.19053
+              4.18418V4.18418C9.22901 4.21168 9.27794 4.22011 9.32344
+              4.20716C9.32487 4.20675 9.32631 4.20634 9.32774 4.20593C9.41699
+              4.18056 9.50648 4.15649 9.59617 4.1337C11.1766 3.73226 12.8234
+              3.73226 14.4038 4.1337C14.4889 4.1553 14.5737 4.17807 14.6584
+              4.20199C14.6602 4.20252 14.6621 4.20304 14.6639 4.20356C14.7174
+              4.21872 14.7749 4.20882 14.8202 4.17653V4.17653C14.8698 4.14114
+              14.9187 4.10679 14.967 4.07346C16.6257 2.92776 17.4894 2.9764
+              17.7053 3.01469V3.01469C17.7404 3.02092 17.7678 3.04628 17.781
+              3.07946C17.7827 3.08373 17.7843 3.08799 17.786 3.09226C18.1341
+              3.97811 18.1894 4.96214 17.946 5.88321C17.9315 5.93811 17.9159
+              5.9928 17.8993 6.04723V6.04723C17.8843 6.09618 17.8951 6.14942
+              17.9278 6.18875C17.9289 6.18998 17.9299 6.19121 17.9309
+              6.19245C17.9528 6.21877 17.9744 6.24534 17.9956 6.27215C18.6573
+              7.10648 19.0153 8.17021 18.9995 9.26749C18.9995 13.747 16.4565
+              14.7435 14.0214 15.015V15.015C14.0073 15.0165 14.001 15.0334
+              14.0105 15.0439C14.0141 15.0479 14.0178 15.0519 14.0214
+              15.0559C14.2671 15.3296 14.4577 15.6544 14.5811 16.0103C14.7101
+              16.3824 14.7626 16.7797 14.7351 17.1754V21" stroke="#ffffff"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M4 17C4.36915 17.0523 4.72159 17.1883 5.03065
+              17.3975C5.3397 17.6068 5.59726 17.8838 5.7838 18.2078C5.94231
+              18.4962 6.15601 18.7504 6.41264 18.9557C6.66927 19.161 6.96379
+              19.3135 7.27929 19.4043C7.59478 19.4952 7.92504 19.5226 8.25112
+              19.485C8.5772 19.4475 8.89268 19.3457 9.17946 19.1855"
+              stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round"></path> </g></svg>
+      </div>
+
+
+    </main>
+
+
+  </body>
+</html>
