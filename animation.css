@@ -61,6 +61,7 @@
 .container .card p {
   /* position: absolute; */
   color: #fff;
+  font-size: 1.6rem;
 }
 
 .container .card button {
@@ -85,12 +86,13 @@
 
 .container .card h3 {
   bottom: 0;
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 500;
   color: #fff;
 }
 
-.container .card .left, .container .card .right {
+.container .card .left,
+.container .card .right {
   color: #fff;
   width: 2rem;
   height: 2rem;
@@ -108,6 +110,5 @@
   .container .card {
     width: 90%;
     height: 40%;
-
   }
 }
