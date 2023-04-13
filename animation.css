@@ -61,7 +61,7 @@
 .container .card p {
   /* position: absolute; */
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.6rem !important;
 }
 
 .container .card button {
@@ -86,7 +86,7 @@
 
 .container .card h3 {
   bottom: 0;
-  font-size: 2rem;
+  font-size: 2rem !important;
   font-weight: 500;
   color: #fff;
 }
