@@ -111,4 +111,12 @@
     width: 90%;
     height: 40%;
   }
+
+  .container .card h3 {
+    font-size: 1.2rem !important;
+  }
+
+  .container .card p {
+    font-size: 0.8rem !important;
+  }
 }
