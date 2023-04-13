@@ -14,7 +14,7 @@ header {
   z-index: 10;
 }
 
-ul{
+ul {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,4 +28,10 @@ header a:visited {
   font-weight: 700;
   margin-inline-end: 0.75rem;
   color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  header a {
+    font-size: 1rem;
+  }
 }

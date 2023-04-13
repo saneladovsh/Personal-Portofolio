@@ -81,7 +81,7 @@
   -webkit-text-stroke: 3px #e4440e;
   color: transparent;
   text-align: center;
-  margin-top: 10vh;
+  margin-top: clamp(70px, 3vh, 300px);
 }
 
 .container .card h3 {
@@ -98,6 +98,11 @@
   height: 2rem;
   fill: #fff;
   cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: inherit;
 }
 
 @media screen and (max-width: 768px) {
