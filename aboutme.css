@@ -81,7 +81,8 @@ h1 span::before {
   }
 
   .animation {
-    height: 100vh;
+    height: 50vh;
+    font-size: 2rem;
   }
 }
 
