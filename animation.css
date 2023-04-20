@@ -124,4 +124,8 @@ button a {
   .container .card p {
     font-size: 0.8rem !important;
   }
+
+  .title {
+    font-size: 2.4rem;
+  }
 }
